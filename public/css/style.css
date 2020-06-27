@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: #3490dc;
+    opacity: 0.7;
+}
+
+.link {
+    font-size: 17px;
+    position: absolute;
+}
+
+@media (max-width:579px) {
+    .link-width {
+        width: 360px;
+        margin: 0 auto;
+    }
+
+    .link {
+        font-size: 15px;
+    }
+}
+
+/*ヘッダーはここから*/
+header {
+    height: 75px;
+    width: 100%;
+    background: -moz-linear-gradient(180deg, rgba(194, 14, 56, 0.224) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(194, 14, 56, 0.224) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, rgba(194, 14, 56, 0.224) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+/*ヘッダー位置の調整*/
+.header-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.header-left {
+    padding-left: 20px;
+}
+
+.header-title {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.header-title:hover {
+    opacity: 0.5;
+}
+
+
+/*ヘッダーリスト*/
+.header-right {
+    display: flex;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.header-list li {
+    padding: 0 20px;
+}
+
+.list {
+    color: white;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.list:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*ヘッダーここまで*/
+
+/* アラートの位置調整 */
+.alert-position-adjustment {
+    position: relative;
+    top: 75px;
+}
+
+/*タイトルと説明はここから*/
+
+/*ヘッダー画像を暗く*/
+.top-content {
+    height: 700px;
+    width: 100%;
+    background: #223;
+    position: relative;
+}
+
+/*ヘッダーイメージ*/
+.top-image {
+    background-image: url(http://localhost/ファンレターサイト/image/letters-1390463_1280.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+/*ヘッダーのタイトル・説明・ボタン位置の調整*/
+.service-discription-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*ヘッダータイトル*/
+.title-thanks-letter {
+    color: white;
+    border-bottom: 3px dashed;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+
+/*ヘッダー説明文*/
+.service-discription {
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 3px dashed white;
+    margin-bottom: 50px;
+}
+
+/*ヘッダーボタン*/
+.new-button {
+    text-align: center;
+}
+
+.register-button {
+    background-color: #F22C5A;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+
+/*モーダル*/
+
+.form-control {
+    width: 420px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.input-id {
+    margin-top: 40px;
+}
+
+.input-name {
+    margin-top: 40px;
+}
+
+.input-submit, .new-submit, .reply-submit {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 75%;
+    border-radius: 4px;
+    border: none;
+    background-color: #5dca88;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn-green:hover, .reply-submit:hover {
+    background-color: #42a268;
+}
+
+.fa-times {
+    position: absolute;
+    top: 16px;
+    right: 23px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 23px;
+}
+
+.col-md-8 {
+    flex: 1 0 66.6666666667% !important;
+    max-width: 100% !important;
+}
+
+.form-group {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.col-form-label {
+    padding-top: calc(1.375rem + 1px) !important;
+    padding-bottom: calc(1.375rem + 1px) !important;
+}
+
+.offset-md-4 {
+    padding: 0;
+    flex: 1 0 50% !important;
+    max-width: 100% !important;
+}
+
+/*タイトル*/
+.title-wrapper {
+    margin-top: 60px !important;
+    margin-bottom: 30px;
+}
+
+.title-header {
+    text-align: center !important;
+}
+
+.title-header a {
+    text-decoration: none;
+    color: #000000;
+}
+

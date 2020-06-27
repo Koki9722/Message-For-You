@@ -1,0 +1,79 @@
+
+.main-wrapper {
+    margin: 60px auto 40px;
+    max-width: 40%;
+    min-width: 340px;
+}
+
+.message-history-wrapper {
+    margin-top: 60px;
+}
+
+.new-message-button, .message-history-button {
+    padding: 50px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* モーダル */
+
+.modal-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    top: 35%;
+    left: 50%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    max-width: 600px !important;
+}
+
+#newMask.hidden, #newModal.hidden {
+    visibility: hidden;
+}
+
+.new-message-header {
+    text-align: center;
+}
+
+.message-num {
+    display: flex;
+    margin: 22px auto 22px;
+}
+
+.min-message-num, .max-message-num {
+    margin: 0 20px 0 0 !important;
+}
+
+.min-message-num {
+    width: 45% !important;
+}
+
+.max-message-num {
+    width: 45% !important;
+}
+
+/* モーダルのボタン */
+
+.new-message-submit {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.message-submit-btn {
+    padding: 20px;
+    border: 1px solid #5D707C;
+    border-radius: 4px;
+    width: 100px;
+}

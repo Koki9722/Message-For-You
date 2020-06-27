@@ -1,0 +1,12 @@
+.row {
+    flex-wrap: nowrap;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.register-button-center {
+    flex: none;
+    max-width: 100%;
+}
